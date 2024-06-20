@@ -5,6 +5,7 @@
 }
 
 header, nav, footer, main{
+    display: block;
     max-width: 640px;
     margin: auto;
     
