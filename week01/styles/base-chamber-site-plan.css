@@ -1,0 +1,60 @@
+/* Typography */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #0056b3;
+}
+
+/* Color Schema */
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 1em;
+}
+
+.color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header, section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+ul {
+    /* list-style-type: none; */
+    padding-left: 3rem;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
